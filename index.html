@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Index Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Page description">
+    <!--Twitter Card data-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="Page Title">
+    <meta name="twitter:description" content="Page description less than 200 characters">
+    <meta name="twitter:creator" content="@author_handle">
+    <meta name="twitter:image" content="http://www.example.com/image.jpg">
+    <!--Open Graph data-->
+    <meta property="og:title" content="Title Here">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://www.example.com/">
+    <meta property="og:image" content="http://example.com/image.jpg">
+    <meta property="og:description" content="Description Here">
+    <meta property="og:site_name" content="Site Name, i.e. Moz">
+    <meta property="fb:admins" content="Facebook numeric ID">
+    <link rel="stylesheet" media="all" href="css/app.css">
+    <script>
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta)
+      {
+        if (screen.width < 375)
+        {
+          var newScale = screen.width / 375;
+          viewportmeta.content = 'width=375, minimum-scale=' + newScale + ', maximum-scale=1.0, user-scalable=no, initial-scale=' + newScale + '';
+        }
+        else
+        {
+          viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+        }
+      }
+
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="main" id="main">
+        <div class="header js-header">
+          <div class="header__center center"><a class="header__logo" href="#"><img class="header__pic" src="img/logo.svg" alt=""></a>
+            <div class="header__wrap js-header-wrap">
+              <nav class="header__nav"><a class="header__link js-link" href="#main">home</a><a class="header__link js-link" href="#features">features</a><a class="header__link js-link" href="#download">download</a><a class="header__link js-link" href="#review">contact us</a>
+                
+            </div><button class="header__burger js-header-burger"></button>
+          </div>
+          <div class="header__bg js-header-bg"></div>
+        </div>
+        <div class="main__center center">
+          <div class="main__wrap">
+            <h1 class="main__title title title_big" data-aos="animation-scale-x">Search. <br/> Book <br/>Play.</h1>
+            <div class="main__text" data-aos="animation-scale-x" data-aos-delay="200">Unlock your sport barries with 3 steps
+              Search for available fields, teammates, opponents
+              Book it and bring your skill to the field.</div>
+            <div class="main__btns" data-aos="animation-scale-x" data-aos-delay="400">
+              <div class="main__btn"><button class="btn btn_blue"><span class="btn__text">explore our features</span></button></div>
+              <div class="main__btn"><button class="btn btn_white"><span class="btn__text">download the app</span></button></div>
+            </div>
+          </div>
+        </div>
+        <div class="main__preview"><img class="main__pic" src="img/phone.svg" alt=""></div>
+        <div class="main__circles">
+          <div class="main__circle"></div>
+          <div class="main__circle"></div>
+          <div class="main__circle"></div>
+        </div>
+      </div>
+      <!-- <div class="clients">
+        <div class="clients__cetner center">
+          <h3 class="clients__title">Happy customers using Circular</h3>
+          <div class="clients__list">
+            <div class="clients__logo" data-aos="animation-custom"><img class="clients__pic" src="img/google.png" alt="" width="117"></div>
+            <div class="clients__logo" data-aos-delay="200" data-aos="animation-custom"><img class="clients__pic" src="img/dribbble.png" alt="" width="130"></div>
+            <div class="clients__logo" data-aos-delay="400" data-aos="animation-custom"><img class="clients__pic" src="img/nucleo.png" alt="" width="166"></div>
+            <div class="clients__logo" data-aos-delay="600" data-aos="animation-custom"><img class="clients__pic" src="img/envato.png" alt="" width="168"></div>
+            <div class="clients__logo" data-aos-delay="800" data-aos="animation-custom"><img class="clients__pic" src="img/spotify.png" alt="" width="133"></div>
+          </div>
+        </div>
+      </div>
+      <div class="details" id="details">
+        <div class="details__center center">
+          <div class="details__item">
+            <div class="details__preview">
+              <div class="details__photo"><img class="details__pic" src="img/photo-1.png" alt=""></div>
+              <div class="details__bg" data-aos="animation-custom" data-aos-duration="1500" data-aos-offset="0"><img class="details__pic" src="img/photo-2.png" alt=""></div>
+              <div class="details__number" data-aos="animation-custom">01</div>
+            </div>
+            <div class="details__wrap" data-aos="animation-scale-x">
+              <h2 class="details__title title">Here it should be a two or three lines title about the app.</h2>
+              <div class="details__text">This should be some description text to back the huge title. It can be quite long actually and it can spread on two or even three lines.</div><a class="details__more" href="#">learn more<svg class="icon icon-arrow-right">
+                  <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                </svg></a>
+            </div>
+          </div>
+          <div class="details__item">
+            <div class="details__wrap" data-aos="animation-scale-x">
+              <h2 class="details__title title">Here it should be a two or three lines title about the app.</h2>
+              <div class="details__text">This should be some description text to back the huge title. It can be quite long actually and it can spread on two or even three lines.</div><a class="details__more" href="#">learn more<svg class="icon icon-arrow-right">
+                  <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                </svg></a>
+            </div>
+            <div class="details__preview">
+              <div class="details__photo"><img class="details__pic" src="img/photo-3.png" alt=""></div>
+              <div class="details__bg" data-aos="animation-custom" data-aos-duration="1500" data-aos-offset="0"><img class="details__pic" src="img/photo-4.png" alt=""></div>
+              <div class="details__number" data-aos="animation-custom">02</div>
+            </div>
+          </div>
+          <div class="details__item">
+            <div class="details__preview">
+              <div class="details__photo"><img class="details__pic" src="img/photo-5.png" alt=""></div>
+              <div class="details__bg" data-aos="animation-custom" data-aos-duration="1500" data-aos-offset="0"><img class="details__pic" src="img/photo-6.png" alt=""></div>
+              <div class="details__number" data-aos="animation-custom">03</div>
+            </div>
+            <div class="details__wrap" data-aos="animation-scale-x">
+              <h2 class="details__title title">Here it should be a two or three lines title about the app.</h2>
+              <div class="details__text">This should be some description text to back the huge title. It can be quite long actually and it can spread on two or even three lines.</div><a class="details__more" href="#">learn more<svg class="icon icon-arrow-right">
+                  <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                </svg></a>
+            </div>
+          </div>
+          <div class="details__item">
+            <div class="details__wrap" data-aos="animation-scale-x">
+              <h2 class="details__title title">Here it should be a two or three lines title about the app.</h2>
+              <div class="details__text">This should be some description text to back the huge title. It can be quite long actually and it can spread on two or even three lines.</div><a class="details__more" href="#">learn more<svg class="icon icon-arrow-right">
+                  <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                </svg></a>
+            </div>
+            <div class="details__preview">
+              <div class="details__photo"><img class="details__pic" src="img/photo-7.png" alt=""></div>
+              <div class="details__bg" data-aos="animation-custom" data-aos-duration="1500" data-aos-offset="0"><img class="details__pic" src="img/photo-8.png" alt=""></div>
+              <div class="details__number" data-aos="animation-custom">04</div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="features" id="features">
+        <div class="features__center center">
+          <h2 class="features__title title">Awesome Features</h2>
+          <div class="features__info">Features that could change the way you play sports.</div>
+          <div class="features__list">
+            <div class="features__item" data-aos="animation-scale-x">
+              <div class="features__preview"><img class="features__pic" src="img/CJE.jpg" alt=""></div>
+              <div class="features__category">Create/Join Event</div>
+              <div class="features__text">Kela app lets you create
+                a sport event or join sport events for
+                different types of sports.</div>
+            </div>
+            <div class="features__item" data-aos="animation-scale-x" data-aos-delay="200">
+              <div class="features__preview"><img class="features__pic" src="img/SPP.jpg" alt=""></div>
+              <div class="features__category">Search Places to Play</div>
+              <div class="features__text">Simply choose your sport, 
+                enter the location, time, date
+                and hit the search button.</div>
+            </div>
+            <div class="features__item" data-aos="animation-scale-x" data-aos-delay="400">
+              <div class="features__preview"><img class="features__pic" src="img/CBO.jpg" alt=""></div>
+              <div class="features__category">Challenge by opponent</div>
+              <div class="features__text">List down your team and waiting 
+                for other to challenge, or you could find 
+                a team and challenge them first.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="review" id="review">
+        <div class="review__center center">
+          <div class="review__head" data-aos="animation-scale-x">
+            <h2 class="review__title title">Testimonials</h2>
+            <div class="review__info">This should be some short description to support the title above.</div>
+          </div>
+          <div class="review__container">
+            <div class="review__slider owl-carousel js-slider">
+              <div class="review__item">
+                <div class="review__ava"><img class="review__pic" src="img/ava-1.png" alt=""></div>
+                <div class="review__author">Martha Roberts</div>
+                <div class="review__text">Circular is simply amazing. I’ve been using it for my app and I must say that the downloads already exploded. Fantastic!</div>
+              </div>
+              <div class="review__item">
+                <div class="review__ava"><img class="review__pic" src="img/ava-2.png" alt=""></div>
+                <div class="review__author">Mark Roberts</div>
+                <div class="review__text">Circular is simply amazing. I’ve been using it for my app and I must say that the downloads already exploded.</div>
+              </div>
+              <div class="review__item">
+                <div class="review__ava"><img class="review__pic" src="img/ava-3.png" alt=""></div>
+                <div class="review__author">Martha Roberts</div>
+                <div class="review__text">Circular is simply amazing. I’ve been using it for my app and I must say that the downloads already exploded. Fantastic!</div>
+              </div>
+              <div class="review__item">
+                <div class="review__ava"><img class="review__pic" src="img/ava-1.png" alt=""></div>
+                <div class="review__author">Martha Roberts</div>
+                <div class="review__text">Circular is simply amazing. I’ve been using it for my app and I must say that the downloads already exploded. Fantastic!</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="download" id="download">
+        <div class="download__body" id="download-body">
+          <div class="download__center center">
+            <h2 class="download__title title title_big">Download the App</h2>
+            <div class="download__info">Our app will be available soon.</div>
+            <div class="download__btns">
+              <div class="download__btn" data-aos="animation-custom"><button class="btn btn_blue"><img class="btn__pic" src="img/apple.svg" alt=""><span class="btn__text">kela for iOS</span></button></div>
+              <div class="download__btn" data-aos="animation-custom" data-aos-delay="200"><button class="btn btn_blue"><img class="btn__pic" src="img/android.svg" alt=""><span class="btn__text">kela for android</span></button></div>
+            </div>
+          </div>
+          <div class="download__circles">
+            <div class="download__circle" data-aos-anchor="#download-body" data-aos-anchor-placement="bottom-bottom" data-aos="animation-custom" data-aos-duration="800" data-aos-offset="0"></div>
+            <div class="download__circle" data-aos-anchor="#download-body" data-aos-anchor-placement="bottom-bottom" data-aos="animation-custom" data-aos-delay="200" data-aos-duration="800" data-aos-offset="0"></div>
+            <div class="download__circle" data-aos-anchor="#download-body" data-aos-anchor-placement="bottom-bottom" data-aos="animation-custom" data-aos-delay="400" data-aos-duration="800" data-aos-offset="0"></div>
+          </div>
+        </div>
+        <div class="download__list js-counter">
+          <div class="download__item">
+            <div class="download__icon">📱</div>
+            <div class="download__box">
+              <div class="download__title title title_big"><span class="js-counter-number" data-count="100">1</span>k</div>
+              <div class="download__note">App Downloads</div>
+            </div>
+          </div>
+          <div class="download__item">
+            <div class="download__icon">😍</div>
+            <div class="download__box">
+              <div class="download__title title title_big"><span class="js-counter-number" data-count="100">1</span>k</div>
+              <div class="download__note">Satisfied Customers</div>
+            </div>
+          </div>
+          <div class="download__item">
+            <div class="download__icon">😃</div>
+            <div class="download__box">
+              <div class="download__title title title_big"><span class="js-counter-number" data-count="80">1</span>k</div>
+              <div class="download__note">Happy Faces</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer__center center">
+          <div class="footer__row"><a class="footer__logo" href="#"><img class="footer__pic" src="img/logo.svg" alt=""></a>
+            
+            <div class="footer__menu"><a class="footer__link js-link" href="#main">home</a><a class="footer__link js-link" href="#features">features</a><a class="footer__link js-link" href="#download">download</a><a class="footer__link js-link" href="#review">contact us</a></div>
+
+            <div class="footer__social social"><a class="social__link" href="#"><svg class="icon icon-facebook">
+                  <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                </svg></a><a class="social__link" href="#"><svg class="icon icon-dribbble">
+                  <use xlink:href="img/sprite.svg#icon-dribbble"></use>
+                </svg></a><a class="social__link" href="#"><svg class="icon icon-twitter">
+                  <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                </svg></a><a class="social__link" href="#"><svg class="icon icon-instagram">
+                  <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                </svg></a></div>
+          </div>
+          <div class="footer__copyright">© 2021 Kela All Rights Reserved</div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
